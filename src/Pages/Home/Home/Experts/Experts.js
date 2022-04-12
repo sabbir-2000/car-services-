@@ -9,10 +9,10 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     { id: 1, name: 'will smith', img: expert1 },
-    { id: 1, name: 'kuru smith', img: expert2 },
-    { id: 1, name: 'messi smith', img: expert3 },
-    { id: 1, name: 'demaria smith', img: expert4 },
-    { id: 1, name: 'haland smith', img: expert5 }
+    { id: 2, name: 'kuru smith', img: expert2 },
+    { id: 3, name: 'messi smith', img: expert3 },
+    { id: 4, name: 'demaria smith', img: expert4 },
+    { id: 5, name: 'haland smith', img: expert5 }
 ]
 const Experts = () => {
     return (
