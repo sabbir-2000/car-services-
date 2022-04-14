@@ -3,10 +3,12 @@ import React from 'react';
 const Expert = ({ expert }) => {
     const { name, img } = expert
     return (
-        <div classNameName='g-4 align-center col-sm-12 col-md-6 col-lg-4'>
-            <div className="card" style={{ width: "18rem" }}>
-                <img src={img} className="card-img-top" alt="..." />
-                <div classNameName="card-body">
+        <div className=' col-md-4 align-center g-4'>
+            <div className="card" >
+
+                <img src={img} className="card-img-top " alt="..." />
+
+                <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" className="btn btn-primary">Go somewhere</a>
